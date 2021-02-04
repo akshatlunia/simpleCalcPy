@@ -1,23 +1,11 @@
 from simpleCalc import *
 
-def tests():
-    a = 10
-    b = 3
-    print(a,"+",b,"=",addition(a, b))
-    print(a,"-",b,"=",subtraction(a, b))
-    print(a,"*",b,"=",multiplication(a, b))
-    print(a,"/",b,"=",division(a, b))
-    a = 3.4
-    b = -10.2
-    print(a,"+",b,"=",addition(a, b))
-    print(a,"-",b,"=",subtraction(a, b))
-    print(a,"*",b,"=",multiplication(a, b))
-    print(a,"/",b,"=",division(a, b))
-    a = 5
-    b = 0
+def tests(a, b):
     print(a,"+",b,"=",addition(a, b))
     print(a,"-",b,"=",subtraction(a, b))
     print(a,"*",b,"=",multiplication(a, b))
     print(a,"/",b,"=",division(a, b))
 
-tests()
+tests(10, 3)
+tests(3.4, -10.2)
+tests(5, 0)
